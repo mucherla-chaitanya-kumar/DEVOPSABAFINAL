@@ -23,7 +23,7 @@ pipeline {
                         body: """<p>Stage 'Checkout' finished with status: ${currentBuild.result}</p>
                                  <p>Check console output at <a href='${BUILD_URL}'>${BUILD_URL}</a></p>""",
                         mimeType: 'text/html',
-                        to: 'sathwikpadmanabha@gmail.com'
+                        to: 'mucherlachaitanya@gmail.com'
                     )
                 }
             }
