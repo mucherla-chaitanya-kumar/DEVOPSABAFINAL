@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         jdk 'jdk-17'      
-        docker 'docker'// Make sure 'jdk-17' is defined in Jenkins > Global Tool Configuration
+        dockerTool 'docker'// Make sure 'jdk-17' is defined in Jenkins > Global Tool Configuration
     }
 
     environment {
