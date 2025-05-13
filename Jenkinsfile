@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'sameekshasunil/devopslab'
+        DOCKER_IMAGE = 'sameekshasunil/aba'
         DOCKER_TAG = "${BUILD_NUMBER}"
         DOCKER_CLI_PATH = 'C:\\Program Files\\Docker\\Docker\\resources\\bin'
         EMAIL_RECIPIENT = 'sameeksha.s017@gmail.com'
